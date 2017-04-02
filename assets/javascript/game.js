@@ -61,6 +61,7 @@
       var matching = 0;
       var userGuess = "";
 
+      // Define audio variable from htmml
       var audio = document.getElementById("audio");
 
       // Randomly chooses a choice from the options array. This is the Computer's guess.
@@ -148,8 +149,6 @@
                         resetDefaults();
                         createBlank(chosenWord); 
                         printValues();
-
-
                       }
 
                   }
