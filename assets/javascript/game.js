@@ -143,11 +143,12 @@
                       if (blankChecker===0) {
                         wins++;
                         audio.play();
+                        alert("You win! The word was " + chosenWord + "!");
                         chosenWord = options[Math.floor(Math.random() * options.length)];
                         resetDefaults();
                         createBlank(chosenWord); 
                         printValues();
-                        alert("You win! The word was " + chosenWord + "!");
+
 
                       }
 
